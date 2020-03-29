@@ -15,4 +15,4 @@ storiesOf('Welcome', module).add('to Storybook', () => (
 storiesOf('Button', module)
   .add('with text', () => <Button title="Example"></Button>)
   .add('with some emoji', () => <Text>😀 😎 👍 💯</Text>)
-  .add('Search', () => <Logo width={120} height={40} />);
+  .add('Search', () => <Logo width={220} height={240} />);
