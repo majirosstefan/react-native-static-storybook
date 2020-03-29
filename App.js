@@ -23,13 +23,15 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import Logo from '././js/Search.svg';
 
 const App: () => React$Node = () => {
   return (
     <>
       <StatusBar barStyle="dark-content" />
       <SafeAreaView style={{backgroundColor: 'grey'}}>
-        <Testujem />
+        <Text>aa</Text>
+        <Logo width={120} height={40} />
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
           style={styles.scrollView}>

@@ -1,0 +1,53 @@
+<svg width="51px" height="53px" viewBox="0 0 51 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <filter x="-48.6%" y="-44.7%" width="191.9%" height="189.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M29.4095564,8.928512 C29.4243412,9.23826154 29.4318182,9.54993446 29.4318182,9.86336075 C29.4318182,20.4714531 20.8667202,29.071011 10.3011364,29.071011 C-0.264447458,29.071011 -8.82954545,20.4714531 -8.82954545,9.86336075 C-8.82954545,9.54993446 -8.82206843,9.23826154 -8.80728371,8.928512 Z" id="path-2"></path>
+        <filter x="-19.0%" y="-24.8%" width="138.0%" height="169.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="6" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient cx="52.1589131%" cy="50%" fx="52.1589131%" fy="50%" r="54.3928398%" gradientTransform="translate(0.521589,0.500000),scale(1.000000,0.994854),rotate(90.000000),scale(1.000000,1.090345),translate(-0.521589,-0.500000)" id="radialGradient-4">
+            <stop stop-color="#017CAE" offset="0%"></stop>
+            <stop stop-color="#023F78" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-5" cx="19.1306818" cy="19" rx="17.8693182" ry="17.9617486"></ellipse>
+        <filter x="-19.6%" y="-13.9%" width="139.2%" height="139.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MailsRootHeader" transform="translate(-277.000000, -12.000000)">
+            <g id="Group" transform="translate(285.000000, 17.000000)">
+                <g id="Logo-Copy">
+                    <g id="Group-3">
+                        <g id="Group-2" filter="url(#filter-1)">
+                            <g id="Combined-Shape" transform="translate(10.301136, 18.999986) rotate(90.000000) translate(-10.301136, -18.999986) ">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                                <path stroke="#FFFFFF" stroke-width="6" d="M26.3021147,11.928512 L-5.69984199,11.928512 C-5.23771157,15.5799392 -3.56640044,18.8525663 -1.10072363,21.3281632 C1.8172668,24.2578936 5.84814498,26.071011 10.3011364,26.071011 C14.7541277,26.071011 18.7850059,24.2578936 21.7029964,21.3281632 C24.1686732,18.8525663 25.8399843,15.5799392 26.3021147,11.928512 Z" stroke-linejoin="square"></path>
+                            </g>
+                            <g id="Oval">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                                <use fill="url(#radialGradient-4)" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <path d="M28,27.586 L26.586,29 L22.343,24.758 L23.757,23.343 L28,27.586 Z M16,23 C12.692,23 10,20.309 10,17 C10,13.692 12.692,11 16,11 C19.308,11 22,13.692 22,17 C22,20.309 19.308,23 16,23 L16,23 Z M16,9 C11.582,9 8,12.582 8,17 C8,21.418 11.582,25 16,25 C20.418,25 24,21.418 24,17 C24,12.582 20.418,9 16,9 L16,9 Z" id="search_left-[#1504]" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>
